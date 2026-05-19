@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Elevate AI-CV</title>
+</head>
+
+<body>
+    <img src="./assets/ElevateAI-logo.png" id="logo" alt="Elevate AI" />
+
+    <h2>Crie e aprimore seu currículo profissional com análise de IA</h2>
+
+    <section class="headline">
+        <button class="headline-button" id="but-create">Criar Currículo</button>
+        <button class="headline-button" id="but-analyse">Analisar Currículo</button>
+        <button class="headline-button" id="but-visualize">Visualizar</button>
+    </section>
+
+    <section id="info"></section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc =
+            "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
+
+</html>
